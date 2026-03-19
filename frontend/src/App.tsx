@@ -1,6 +1,6 @@
 import RecordTable from "./component/record-table"
 
-import {useAppDispatch, useAppSelector} from "./store/hooks"
+import {useAppDispatch, useAppSelector} from "./store/hooks.ts"
 import {incremented, amountAdded} from "./features/counter-slice"
 import {useFetchBreedsQuery} from "./dogs/dogs-api-slice"
 import { useState } from "react"
